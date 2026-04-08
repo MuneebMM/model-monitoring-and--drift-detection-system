@@ -6,7 +6,7 @@ The system trains a baseline classifier on the UCI Bank Marketing dataset, simul
 
 ## Demo
 
-https://github.com/user-attachments/assets/streamlit-app-2026-04-08-21-48-08.webm
+https://github.com/model-monitoring-and--drift-detection-system/streamlit-app-2026-04-08-21-48-08.webm
 
 > Streamlit dashboard walkthrough — Overview, Drift Analysis, Batch Explorer, and Live Prediction pages.
 

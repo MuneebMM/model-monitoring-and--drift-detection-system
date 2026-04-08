@@ -54,7 +54,6 @@ The system trains a baseline classifier on the UCI Bank Marketing dataset, simul
 ├── models/                   # Trained model + preprocessor pickles
 ├── reports/                  # Evidently HTML/JSON reports + drift summary
 ├── requirements.txt
-├── CLAUDE.md
 └── README.md
 ```
 
@@ -261,6 +260,6 @@ Open http://localhost:5000 to explore experiment runs, compare metrics across ba
 6. **`dashboard/app.py`** visualizes drift trends, lets you explore individual batches, and test live predictions
 7. **MLflow** ties everything together — every training run and monitoring result is tracked with full lineage
 
-## License
+## Author
 
-This project is for educational and portfolio purposes.
+Built by [Muneeb](https://github.com/MuneebMM) as a portfolio project demonstrating production-level MLOps monitoring and drift detection practices.

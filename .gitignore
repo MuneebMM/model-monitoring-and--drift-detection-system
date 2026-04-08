@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# MLflow
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Model artifacts
+models/*.pkl
+
+# Data files
+data/raw/*.csv
+data/reference/*.csv
+data/production/*.csv
+data/production/processed_batches.json
+
+# Reports (generated)
+reports/*.html
+reports/*.json
+reports/*.csv
+reports/*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ucimlrepo cache
+ucimlrepo/

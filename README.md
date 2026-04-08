@@ -4,6 +4,12 @@ A production-style MLOps monitoring system that detects when a deployed ML model
 
 The system trains a baseline classifier on the UCI Bank Marketing dataset, simulates realistic production data drift scenarios, detects drift using statistical tests, serves predictions via a REST API, and visualizes everything through an interactive dashboard.
 
+## Demo
+
+https://github.com/user-attachments/assets/streamlit-app-2026-04-08-21-48-08.webm
+
+> Streamlit dashboard walkthrough — Overview, Drift Analysis, Batch Explorer, and Live Prediction pages.
+
 ---
 
 ## Architecture

@@ -1,0 +1,23 @@
+artifact_path: /home/muneeb/Model Monitoring & Drift Detection System/mlruns/1/models/m-439849c1218b49f59ea77540fa65116a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-439849c1218b49f59ea77540fa65116a
+model_size_bytes: 6464138
+model_uuid: m-439849c1218b49f59ea77540fa65116a
+prompts: null
+run_id: 911cc21779e0458f9f3700bdb5965333
+utc_time_created: '2026-04-08 14:54:58.696999'

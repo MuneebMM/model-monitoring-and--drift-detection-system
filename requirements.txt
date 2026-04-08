@@ -1,0 +1,21 @@
+# Core ML & Data
+pandas
+numpy
+scikit-learn
+
+# Model Monitoring & Drift Detection
+evidently
+
+# Experiment Tracking & Model Registry
+mlflow
+
+# API Backend
+fastapi
+uvicorn
+
+# Dashboard
+streamlit
+plotly
+
+# Data Loading
+ucimlrepo

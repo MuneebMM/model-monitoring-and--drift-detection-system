@@ -1,0 +1,104 @@
+{
+  "batch_01": {
+    "drift_type": "no_drift",
+    "params": {
+      "noise_scale": 0.01
+    }
+  },
+  "batch_02": {
+    "drift_type": "no_drift",
+    "params": {
+      "noise_scale": 0.01
+    }
+  },
+  "batch_03": {
+    "drift_type": "gradual_drift",
+    "params": {
+      "step": 1,
+      "cumulative_shifts": {
+        "age": 2.0,
+        "balance": 350.0,
+        "duration": 35.0,
+        "campaign": 0.6
+      }
+    }
+  },
+  "batch_04": {
+    "drift_type": "gradual_drift",
+    "params": {
+      "step": 2,
+      "cumulative_shifts": {
+        "age": 4.0,
+        "balance": 700.0,
+        "duration": 70.0,
+        "campaign": 1.2
+      }
+    }
+  },
+  "batch_05": {
+    "drift_type": "gradual_drift",
+    "params": {
+      "step": 3,
+      "cumulative_shifts": {
+        "age": 6.0,
+        "balance": 1050.0,
+        "duration": 105.0,
+        "campaign": 1.7999999999999998
+      }
+    }
+  },
+  "batch_06": {
+    "drift_type": "gradual_drift",
+    "params": {
+      "step": 4,
+      "cumulative_shifts": {
+        "age": 8.0,
+        "balance": 1400.0,
+        "duration": 140.0,
+        "campaign": 2.4
+      }
+    }
+  },
+  "batch_07": {
+    "drift_type": "gradual_drift",
+    "params": {
+      "step": 5,
+      "cumulative_shifts": {
+        "age": 10.0,
+        "balance": 1750.0,
+        "duration": 175.0,
+        "campaign": 3.0
+      }
+    }
+  },
+  "batch_08": {
+    "drift_type": "sudden_drift",
+    "params": {
+      "age_threshold": 48,
+      "balance_multiplier": 3.0,
+      "retired_fraction": 0.65
+    }
+  },
+  "batch_09": {
+    "drift_type": "concept_drift",
+    "params": {
+      "balance_threshold": 1500,
+      "flip_fraction": 0.75,
+      "n_eligible_in_batch": 194,
+      "n_flipped": 145,
+      "original_positive_rate": 0.117,
+      "batch_positive_rate": 0.262
+    }
+  },
+  "batch_10": {
+    "drift_type": "concept_drift",
+    "params": {
+      "balance_threshold": 1500,
+      "flip_fraction": 0.75,
+      "n_eligible_in_batch": 199,
+      "n_flipped": 149,
+      "original_positive_rate": 0.117,
+      "batch_positive_rate": 0.264
+    }
+  }
+}
